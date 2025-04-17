@@ -1,25 +1,60 @@
 body {
-    font-family: 'Roboto', sans-serif;
-    background-color: #f8f9fa;
-  }
-  
-  .navbar {
-    background-color: #8B0000;
-  }
-  
-  .navbar-brand,
-  .nav-link {
-    color: white !important;
-  }
-  
-  .hero {
-    background: url('../imágenes/fondo.png') no-repeat center center;
-    background-size: cover;
-    height: 400px;
-    display: flex;
-    align-items: center;
-    justify-content: center;
-    color: white;
-    text-shadow: 2px 2px 4px #000;
-  }
-  
+  font-family: 'Roboto', sans-serif;
+  background-color: #f8f9fa;
+  margin: 0;
+  padding: 0;
+}
+
+.navbar {
+  background-color: #8B0000;
+}
+
+.navbar-brand,
+.nav-link {
+  color: white !important;
+}
+
+.nav-link:hover {
+  text-decoration: underline;
+}
+
+.hero {
+  background: url('../imágenes/Fondo.png') no-repeat center center;
+  background-size: cover;
+  height: 400px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  color: white;
+  text-shadow: 2px 2px 4px #000;
+  text-align: center;
+  padding: 2rem;
+}
+
+.card {
+  border: none;
+  transition: transform 0.2s ease;
+}
+
+.card:hover {
+  transform: scale(1.03);
+}
+
+.card img {
+  height: 200px;
+  object-fit: cover;
+}
+
+footer {
+  background-color: #212529;
+  color: white;
+}
+
+footer a {
+  color: white;
+  text-decoration: none;
+}
+
+footer a:hover {
+  text-decoration: underline;
+}

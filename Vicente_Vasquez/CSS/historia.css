@@ -1,0 +1,27 @@
+body {
+  font-family: 'Roboto', sans-serif;
+  background-color: #f8f9fa;
+  color: #212529;
+}
+
+.navbar {
+  background-color: #8B0000;
+}
+
+.navbar-brand,
+.nav-link {
+  color: white !important;
+}
+
+main p {
+  text-align: justify;
+}
+
+.imagen-carrusel {
+  height: 350px;
+  object-fit: cover;
+}
+
+footer a:hover {
+  text-decoration: underline;
+}
