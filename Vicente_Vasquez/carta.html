@@ -1,11 +1,224 @@
 <!DOCTYPE html>
-<html lang="en">
+<html lang="es">
 <head>
-  <meta charset="UTF-8">
-  <meta name="viewport" content="width=device-width, initial-scale=1.0">
-  <title>Nuestra Carta</title>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1" />
+  <title>Nuestra Carta - El Aniquilador del Hambre</title>
+  <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.2/dist/css/bootstrap.min.css" rel="stylesheet" />
+  <link href="https://fonts.googleapis.com/css2?family=Roboto:wght@400;700&display=swap" rel="stylesheet" />
+  <link href="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.10.5/font/bootstrap-icons.css" rel="stylesheet">
+  <link rel="stylesheet" href="CSS/estilos.css" />
 </head>
 <body>
+
+  <header>
+    <nav class="navbar navbar-expand-lg navbar-dark">
+      <div class="container">
+        <a class="navbar-brand fw-bold" href="index.html">El Aniquilador del Hambre</a>
+        <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#menu">
+          <span class="navbar-toggler-icon"></span>
+        </button>
+        <div class="collapse navbar-collapse" id="menu">
+          <ul class="navbar-nav ms-auto">
+            <li class="nav-item"><a class="nav-link" href="index.html">Inicio</a></li>
+            <li class="nav-item"><a class="nav-link" href="historia.html">Historia</a></li>
+            <li class="nav-item"><a class="nav-link" href="sucursales.html">Sucursales</a></li>
+            <li class="nav-item"><a class="nav-link" href="contacto.html">Contacto</a></li>
+          </ul>
+        </div>
+      </div>
+    </nav>
+  </header>
+
+  <main class="container py-5">
+    <h1 class="text-center mb-4">Nuestra Carta</h1>
+    <p class="text-center mb-5">Aquí encontrarás todos nuestros platos, bebidas y postres disponibles.</p>
+
+    <!-- SANDWICHES -->
+    <section class="mb-5">
+      <h3 class="mb-4">🥪 Sandwiches</h3>
+      <div class="row">
+        <div class="col-md-4 mb-3">
+          <div class="card">
+            <img src="imágenes/Carta/Chacarero.jpeg" class="card-img-top" alt="Chacarero">
+            <div class="card-body">
+              <h5 class="card-title">Chacarero</h5>
+              <p>Carne, porotos verdes, ají y tomate.</p>
+              <p class="text-danger fw-bold">$4.000</p>
+            </div>
+          </div>
+        </div>
+        <div class="col-md-4 mb-3">
+          <div class="card">
+            <img src="imágenes/Carta/Barros Luco.jpg" class="card-img-top" alt="Barros Luco">
+            <div class="card-body">
+              <h5 class="card-title">Barros Luco</h5>
+              <p>Carne con queso fundido.</p>
+              <p class="text-danger fw-bold">$6.000</p>
+            </div>
+          </div>
+        </div>
+        <div class="col-md-4 mb-3">
+          <div class="card">
+            <img src="imágenes/Carta/Churrasco Italiano.jpeg" class="card-img-top" alt="Ave Palta">
+            <div class="card-body">
+              <h5 class="card-title">Churrasco Italiano</h5>
+              <p>Palta, tomate, mayo casera.</p>
+              <p class="text-danger fw-bold">$4.500</p>
+            </div>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <!-- PLATOS -->
+    <section class="mb-5">
+      <h3 class="mb-4">🍽️ Platos</h3>
+      <div class="row">
+        <div class="col-md-4 mb-3">
+          <div class="card">
+            <img src="imágenes/Carta/Lomo a lo pobre.jpeg" class="card-img-top" alt="Lomo a lo pobre">
+            <div class="card-body">
+              <h5 class="card-title">Lomo a lo pobre</h5>
+              <p>Carne, cebolla, papas fritos y huevos.</p>
+              <p class="text-danger fw-bold">$6.500</p>
+            </div>
+          </div>
+        </div>
+        <div class="col-md-4 mb-3">
+          <div class="card">
+            <img src="imágenes/Carta/Cazuela.jpeg" class="card-img-top" alt="Cazuela">
+            <div class="card-body">
+              <h5 class="card-title">Cazuela</h5>
+              <p>Carne, papas, zapallo y caldo sabroso.</p>
+              <p class="text-danger fw-bold">$5.200</p>
+            </div>
+          </div>
+        </div>
+        <div class="col-md-4 mb-3">
+          <div class="card">
+            <img src="imágenes/Carta/Porotos con rienda.jpeg" class="card-img-top" alt="Porotos con rienda">
+            <div class="card-body">
+              <h5 class="card-title">Porotos con rienda</h5>
+              <p>Porotos con tallarines, zapallo y longaniza.</p>
+              <p class="text-danger fw-bold">$4.900</p>
+            </div>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <!-- BEBESTIBLES -->
+    <section class="mb-5">
+      <h3 class="mb-4">🥤 Bebestibles</h3>
+      <div class="row">
+        <div class="col-md-4 mb-3">
+          <div class="card">
+            <img src="imágenes/Carta/Mote con huesillo.jpeg" class="card-img-top" alt="Mote con huesillo">
+            <div class="card-body">
+              <h5 class="card-title">Mote con huesillo</h5>
+              <p>Tradicional y frescura en cada sorbo.</p>
+              <p class="text-danger fw-bold">$2.000</p>
+            </div>
+          </div>
+        </div>
+        <div class="col-md-4 mb-3">
+          <div class="card">
+            <img src="imágenes/Carta/Limonada menta jengibre.jpeg" class="card-img-top" alt="Limonada">
+            <div class="card-body">
+              <h5 class="card-title">Limonada menta jengibre</h5>
+              <p>Refrescante y natural.</p>
+              <p class="text-danger fw-bold">$2.200</p>
+            </div>
+          </div>
+        </div>
+        <div class="col-md-4 mb-3">
+          <div class="card">
+            <img src="imágenes/Carta/Jugos y bebidas.jpg" class="card-img-top" alt="Bebidas y jugos">
+            <div class="card-body">
+              <h5 class="card-title">Jugos y bebidas</h5>
+              <p>Varidad para todos los gustos.</p>
+              <p class="text-danger fw-bold">$1.500</p>
+            </div>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <!-- POSTRES -->
+    <section class="mb-5">
+      <h3 class="mb-4">🍮 Postres</h3>
+      <div class="row">
+        <div class="col-md-4 mb-3">
+          <div class="card">
+            <img src="imágenes/Carta/Leche asada.jpeg" class="card-img-top" alt="Leche Asada">
+            <div class="card-body">
+              <h5 class="card-title">Leche asada</h5>
+              <p>Postre tradicional chileno al horno.</p>
+              <p class="text-danger fw-bold">$2.500</p>
+            </div>
+          </div>
+        </div>
+        <div class="col-md-4 mb-3">
+          <div class="card">
+            <img src="imágenes/Carta/Helado artesanal.jpeg" class="card-img-top" alt="Helado artesanal">
+            <div class="card-body">
+              <h5 class="card-title">Helado artesanal</h5>
+              <p>Sabores naturales de la casa.</p>
+              <p class="text-danger fw-bold">$2.800</p>
+            </div>
+          </div>
+        </div>
+        <div class="col-md-4 mb-3">
+          <div class="card">
+            <img src="imágenes/Carta/Panqueque manjar-nuez.webp" class="card-img-top" alt="Panqueque manjar-nuez">
+            <div class="card-body">
+              <h5 class="card-title">Panqueque manjar-nuez</h5>
+              <p>Dulce irresistible, casero y chileno.</p>
+              <p class="text-danger fw-bold">$3.000</p>
+            </div>
+          </div>
+        </div>
+      </div>
+    </section>
+  </main>
+
+  <footer class="bg-dark text-white text-center py-4 mt-5">
+    <div class="container">
+      <p class="mb-2 fw-bold">El Aniquilador del Hambre</p>
   
+      <!-- Enlaces de navegación -->
+      <div class="d-flex justify-content-center gap-4 mb-3">
+        <a href="index.html" class="text-white text-decoration-none">Inicio</a>
+        <a href="carta.html" class="text-white text-decoration-none">Carta</a>
+        <a href="historia.html" class="text-white text-decoration-none">Historia</a>
+        <a href="sucursales.html" class="text-white text-decoration-none">Sucursales</a>
+      </div>
+  
+      <!-- Teléfonos de sucursales -->
+      <div class="mb-3">
+        <p class="mb-1">📞 Valdivia Centro: +56 9 1234 5678</p>
+        <p class="mb-1">📞 Niebla: +56 9 8765 4321</p>
+        <p class="mb-1">📞 Corral: +56 9 2345 6789</p>
+      </div>
+  
+      <!-- Redes sociales -->
+      <div class="mb-3">
+        <a href="https://www.instagram.com" target="_blank" class="text-white me-3 fs-4">
+          <i class="bi bi-instagram"></i>
+        </a>
+        <a href="https://www.facebook.com" target="_blank" class="text-white me-3 fs-4">
+          <i class="bi bi-facebook"></i>
+        </a>
+        <a href="https://www.twitter.com" target="_blank" class="text-white fs-4">
+          <i class="bi bi-twitter"></i>
+        </a>
+      </div>
+  
+      <p class="mt-3 mb-0">© 2025 El Aniquilador del Hambre. Todos los derechos reservados.</p>
+    </div>
+  </footer>
+
+  <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.2/dist/js/bootstrap.bundle.min.js"></script>
 </body>
 </html>

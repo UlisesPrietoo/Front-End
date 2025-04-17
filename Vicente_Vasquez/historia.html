@@ -1,11 +1,130 @@
 <!DOCTYPE html>
-<html lang="en">
+<html lang="es">
 <head>
   <meta charset="UTF-8">
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
-  <title>Nuestra Historia</title>
+  <title>Nuestra Historia - El Aniquilador del Hambre</title>
+  <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.2/dist/css/bootstrap.min.css" rel="stylesheet">
+  <link href="https://fonts.googleapis.com/css2?family=Roboto:wght@400;700&display=swap" rel="stylesheet">
+  <link href="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.10.5/font/bootstrap-icons.css" rel="stylesheet">
+  <link rel="stylesheet" href="CSS/historia.css">
 </head>
 <body>
+
+  <header>
+    <nav class="navbar navbar-expand-lg navbar-dark">
+      <div class="container">
+        <a class="navbar-brand fw-bold" href="index.html">El Aniquilador del Hambre</a>
+        <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#menu">
+          <span class="navbar-toggler-icon"></span>
+        </button>
+        <div class="collapse navbar-collapse" id="menu">
+          <ul class="navbar-nav ms-auto">
+            <li class="nav-item"><a class="nav-link" href="index.html">Inicio</a></li>
+            <li class="nav-item"><a class="nav-link" href="carta.html">Carta</a></li>
+            <li class="nav-item"><a class="nav-link" href="sucursales.html">Sucursales</a></li>
+            <li class="nav-item"><a class="nav-link" href="contacto.html">Contacto</a></li>
+          </ul>
+        </div>
+      </div>
+    </nav>
+  </header>
+
+  <main class="container py-5">
+    <h1 class="text-center mb-4">Nuestra Historia</h1>
+    <p class="lead text-center">Desde 1975 acompañando a los valdivianos con sabor, tradición y cariño.</p>
+    <p>El Aniquilador del Hambre nació como un pequeño emprendimiento familiar en Valdivia. Fundado por Don Ernesto de la Cruz, un apasionado de la cocina casera, este local comenzó sirviendo simples pero sabrosos sandwiches y platos del día a trabajadores del sector. Con el tiempo, la calidad y el sabor de sus comidas atrajeron a más clientes, y la fama del lugar creció rápidamente.</p>
+    <p>Hoy, tras 50 años de historia, el restaurante sigue siendo un negocio familiar, manteniendo las recetas originales y la atención cercana de siempre. Con tres sucursales en la ciudad, El Aniquilador del Hambre es parte de la identidad local, y un punto de encuentro para generaciones que siguen eligiendo nuestros sabores únicos.</p>
+    <p>Nos enorgullece ser parte de la historia valdiviana y esperamos seguir acompañando a las nuevas generaciones con nuestros clásicos de siempre.</p>
+  </main>
+
+  <!-- Carrusel reducido -->
+  <section class="container mb-5">
+    <div id="carouselHistoria" class="carousel slide" data-bs-ride="carousel" data-bs-interval="5000">
+      <div class="carousel-inner">
+        <div class="carousel-item active">
+          <img src="imágenes/Historia/Historia1.jpg" class="d-block w-100 imagen-carrusel" alt="Historia 1">
+        </div>
+        <div class="carousel-item">
+          <img src="imágenes/Historia/Historia2.jpg" class="d-block w-100 imagen-carrusel" alt="Historia 2">
+        </div>
+        <div class="carousel-item">
+          <img src="imágenes/Historia/Historia3.jpg" class="d-block w-100 imagen-carrusel" alt="Historia 3">
+        </div>
+      </div>
+      <button class="carousel-control-prev" type="button" data-bs-target="#carouselHistoria" data-bs-slide="prev">
+        <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+      </button>
+      <button class="carousel-control-next" type="button" data-bs-target="#carouselHistoria" data-bs-slide="next">
+        <span class="carousel-control-next-icon" aria-hidden="true"></span>
+      </button>
+    </div>
+  </section>
+
+  <!-- Testimonios en cards -->
+  <section class="container pb-5">
+    <h2 class="text-center mb-4">Testimonios de nuestros Clientes</h2>
+    <div class="row text-center">
+      <div class="col-md-4 mb-3">
+        <div class="card p-3 h-100">
+          <img src="imágenes/Testimonios/Testimonio6.jpeg" class="rounded-circle mx-auto mb-3" alt="Cliente 1" width="250" height="200">
+          <p>"Mi familia y yo comemos aquí desde hace 20 años. La comida nunca falla."</p>
+          <small class="text-muted">– Rodrigo M.</small>
+        </div>
+      </div>
+      <div class="col-md-4 mb-3">
+        <div class="card p-3 h-100">
+          <img src="imágenes/Testimonios/Testimonio4.jpeg" class="rounded-circle mx-auto mb-3" alt="Cliente 2" width="250" height="200">
+          <p>"El mejor churrasco de Valdilluvia, y la atención es excelente."</p>
+          <small class="text-muted">– Rául P.</small>
+        </div>
+      </div>
+      <div class="col-md-4 mb-3">
+        <div class="card p-3 h-100">
+          <img src="imágenes/Testimonios/Testimonio3.jpeg" class="rounded-circle mx-auto mb-3" alt="Cliente 3" width="250" height="200">
+          <p>"Me trae recuerdos de mi infancia, y siempre vuelvo por el sabor."</p>
+          <small class="text-muted">– Esteban R.</small>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <footer class="bg-dark text-white text-center py-4 mt-5">
+    <div class="container">
+      <p class="mb-2 fw-bold">El Aniquilador del Hambre</p>
   
+      <!-- Enlaces de navegación -->
+      <div class="d-flex justify-content-center gap-4 mb-3">
+        <a href="index.html" class="text-white text-decoration-none">Inicio</a>
+        <a href="carta.html" class="text-white text-decoration-none">Carta</a>
+        <a href="historia.html" class="text-white text-decoration-none">Historia</a>
+        <a href="sucursales.html" class="text-white text-decoration-none">Sucursales</a>
+      </div>
+  
+      <!-- Teléfonos de sucursales -->
+      <div class="mb-3">
+        <p class="mb-1">📞 Valdivia Centro: +56 9 1234 5678</p>
+        <p class="mb-1">📞 Niebla: +56 9 8765 4321</p>
+        <p class="mb-1">📞 Corral: +56 9 2345 6789</p>
+      </div>
+  
+      <!-- Redes sociales -->
+      <div class="mb-3">
+        <a href="https://www.instagram.com" target="_blank" class="text-white me-3 fs-4">
+          <i class="bi bi-instagram"></i>
+        </a>
+        <a href="https://www.facebook.com" target="_blank" class="text-white me-3 fs-4">
+          <i class="bi bi-facebook"></i>
+        </a>
+        <a href="https://www.twitter.com" target="_blank" class="text-white fs-4">
+          <i class="bi bi-twitter"></i>
+        </a>
+      </div>
+  
+      <p class="mt-3 mb-0">© 2025 El Aniquilador del Hambre. Todos los derechos reservados.</p>
+    </div>
+  </footer>
+
+  <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.2/dist/js/bootstrap.bundle.min.js"></script>
 </body>
 </html>
